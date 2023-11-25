@@ -13,7 +13,7 @@ dist
 dist-ssr
 *.local
 client/.env
-.env
+
 
 
 # Editor directories and files
@@ -26,3 +26,4 @@ client/.env
 *.njsproj
 *.sln
 *.sw?
+.env
