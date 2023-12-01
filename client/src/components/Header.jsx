@@ -26,7 +26,7 @@ export default function Header() {
     <header className='bg-slate-200 shadow-md'>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
-          <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
+          <h1 className='font-bold text-sm sm:text-xl flex flex-wrap uppercase'>
             <span className='text-slate-500'>Saj</span>
             <span className='text-slate-700'>ilai</span>
           </h1>
@@ -46,7 +46,7 @@ export default function Header() {
             <FaSearch className='text-slate-600' />
           </button>
         </form>
-        <ul className='flex gap-4'>
+        <ul className='flex gap-4 uppercase'>
           <Link to='/'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>
               Home
